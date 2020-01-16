@@ -65,119 +65,89 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-* {
-	box-sizing: border-box;
-}
+*{
+	box-sizing:border-box;
+	align-content: space-between;
+  }
 
-.top-content {
-	margin-top: 25px;
-}
-
-hr {
-	margin: 50px 0px 35px 0px;
-}
-
-.features, .about {
-	display: inline-block;
-	width: 49%;
-}
-
-.bottom-content {
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
-
-.services, .product, .vision {
-	display: inline-block;
-	width: 33%;
-}
-
-
-.links, .logo {
-	display: inline-block;
-	text-align: center;
-	margin-top: 20px;
-	vertical-align: middle;
-}
-
-header {
-	text-align: center;
+.navigation .links {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 69%;
 }
 
 .navigation {
-	text-align: center;
+	display: flex;
+	padding-top: 25px;
 }
 
-h1 {
-	font-size: 75px;
-}
-
-.links a {
-	padding: 50px;
-	color: black;
-	text-decoration: none;
-}
-
-.getstarted, .circlelogo {
-	display: inline-block;
-	vertical-align: middle;
+.navigation .logo {
+	display: flex;
+	justify-content: space-evenly;
+	width: 29%;
 }
 
 header {
-	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
 }
 
-.getstarted {
+.top-content {
+	display: flex;
+	padding: 30px 30px 30px 30px;
+}
+
+.banner {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-content {
+	display: flex;
+	padding: 30px 30px 30px 30px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 80px;
+}
+
+h1 {
+	font-size: 65px;
 	text-align: center;
 }
 
-.circlelogo {
-	margin-left: 60px;
-}
-
 .getstarted h2 {
+	display: flex;
+	justify-content: center;
 	font-size: 15px;
 	font-family: sans-serif;
 	border: 1px black solid;
 	padding: 15px;
 	margin: auto;
 	width: 60%;
+
 }
 
-body {
-	max-width: 80%;
-	margin: auto;
+.links a {
+	color: black;
+	text-decoration: none;
 }
 
-footer {
-	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 40px;
+.contact div {
+	padding: 30px 30px 30px 30px;
+}
+
+.getstarted {
+	padding-right: 50px;
 }
 
 .middle-img {
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 25px;
-  width: 100%;
-  height: 80%;
+	display: flex;
+  	padding-top: 25px;
+  	width: 97%;
 }
-
-header {
-	animation-duration: 1s;
-	animation-name: slidein;
-	text-align: center;
-}
-
-@keyframes slidein {
-	from {
-	  margin-left: 100%;
-	  width: 300%; 
-	}
-  
-	to {
-	  margin-left: 0%;
-	  width: 100%;
-	}
-  }
