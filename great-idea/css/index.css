@@ -114,6 +114,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	padding-bottom: 80px;
+	padding-top: 50px;
 }
 
 h1 {
@@ -199,4 +200,30 @@ h5 {
 
 .servicesblock {
 	padding: 30px;
+	margin: 15px;
+}
+
+ul { 
+	list-style-type: square;
+	padding: 25px;
+}
+
+ul li {
+	padding: 10px;
+}
+
+.factsblock { 
+	margin: 15px;
+}
+
+.factsblock p {
+	max-width: 85%;
+}
+
+.services-info-img {
+	padding-right: 50px;
+}
+
+hr {
+	margin-top: 25px;
 }
